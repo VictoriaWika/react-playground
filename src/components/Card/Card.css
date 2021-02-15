@@ -1,4 +1,11 @@
 .Card {
   padding: 20px;
   box-shadow: 2px 2px 4px #999;
+  background: #eee;
+  margin: 20px;
+  text-align: center;
+}
+
+.Card h2 {
+  font-size: 1.2rem;
 }

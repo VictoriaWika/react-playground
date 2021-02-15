@@ -6,4 +6,4 @@ export default {
   component: Card,
 }
 
-export const JS = () => <Card />
+export const JS = () => <Card question="What sucks?" answer="Storybook" />
