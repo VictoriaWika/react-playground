@@ -3,10 +3,17 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: ['standard', 'prettier'],
+  extends: ['standard', 'prettier', 'plugin:react/recommended'],
   parserOptions: {
     ecmaVersion: 12,
     sourceType: 'module',
   },
-  rules: {},
+  rules: {
+    'react/prop-types': 'off',
+  },
+  settings: {
+    react: {
+      version: "detect",
+    }
+  }
 }
