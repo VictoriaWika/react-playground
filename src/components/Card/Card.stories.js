@@ -6,4 +6,11 @@ export default {
   component: Card,
 }
 
-export const JS = () => <Card question="What sucks?" answer="Storybook" />
+export const JS = () => (
+  <Card
+    question="What sucks?"
+    answer="Storybook"
+    backgroundcolor="#ecc2fc"
+    radius="25"
+  />
+)
