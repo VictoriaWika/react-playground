@@ -1,5 +1,5 @@
-import AppHeader from './AppHeader'
 import React from 'react'
+import AppHeader from './AppHeader'
 
 export default {
   title: 'AppHeader',

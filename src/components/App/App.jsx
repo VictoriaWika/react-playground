@@ -1,11 +1,17 @@
+import React from 'react'
+import { cities } from '../../capstone.json'
 import AppHeader from '../AppHeader'
 import Card from '../Card'
-import React from 'react'
 
 export default function App() {
   return (
     <>
       <AppHeader title="Playground for React" />
+
+      {cities.map(({ name, id }) => (
+        <ul key={id}> name={name}</ul>
+      ))}
+
       <Card
         question="What does React do?"
         answer="It helps us create components"
